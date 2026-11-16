@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:other_smelting_recipes"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "leather_smelting",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "minecraft:leather"
+  }
+}

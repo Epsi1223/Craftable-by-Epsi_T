@@ -1,0 +1,19 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:quick_crafting_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:hay_block"
+  },
+  "pattern": [
+    "HHH"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:bread"
+  }
+}

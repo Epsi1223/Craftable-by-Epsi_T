@@ -1,0 +1,59 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:moss_block_recipe"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glow_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_grass_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:grass_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_moss_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:moss_carpet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_moss-block_from_moss-carpets_glow-berries_and_grass-block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_moss_carpet",
+      "has_grass_block",
+      "has_glow_berries"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_moss-block_from_moss-carpets_glow-berries_and_grass-block"
+    ]
+  }
+}

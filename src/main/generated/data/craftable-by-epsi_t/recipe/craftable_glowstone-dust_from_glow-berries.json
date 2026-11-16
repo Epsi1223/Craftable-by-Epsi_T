@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:glowstone_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glow_berries",
+    "minecraft:glow_berries"
+  ],
+  "result": {
+    "id": "minecraft:glowstone_dust"
+  }
+}

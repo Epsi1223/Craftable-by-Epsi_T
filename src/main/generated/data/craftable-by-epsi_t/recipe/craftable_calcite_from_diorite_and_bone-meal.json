@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:decorative_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:diorite",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:calcite"
+  }
+}

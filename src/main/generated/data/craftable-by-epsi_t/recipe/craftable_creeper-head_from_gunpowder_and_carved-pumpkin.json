@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:mob_heads_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gunpowder",
+    "P": "minecraft:carved_pumpkin"
+  },
+  "pattern": [
+    "GGG",
+    "GPG",
+    "GGG"
+  ],
+  "result": {
+    "id": "minecraft:creeper_head"
+  }
+}

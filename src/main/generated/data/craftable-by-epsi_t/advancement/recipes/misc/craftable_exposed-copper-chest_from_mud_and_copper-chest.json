@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:copper_oxidation_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chest"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_exposed-copper-chest_from_mud_and_copper-chest"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mud",
+      "has_copper_chest"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_exposed-copper-chest_from_mud_and_copper-chest"
+    ]
+  }
+}

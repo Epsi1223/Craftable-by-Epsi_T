@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:trident_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:breeze_rod",
+    "S": "minecraft:prismarine_shard"
+  },
+  "pattern": [
+    " SS",
+    " RS",
+    "R  "
+  ],
+  "result": {
+    "id": "minecraft:trident"
+  }
+}

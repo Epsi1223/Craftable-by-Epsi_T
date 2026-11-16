@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:budding_amethyst_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:amethyst_block",
+    "N": "minecraft:nether_star"
+  },
+  "pattern": [
+    "AAA",
+    "ANA",
+    "AAA"
+  ],
+  "result": {
+    "id": "minecraft:budding_amethyst"
+  }
+}

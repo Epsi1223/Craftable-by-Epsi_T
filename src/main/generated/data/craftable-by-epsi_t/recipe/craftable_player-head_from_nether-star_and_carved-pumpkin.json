@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:mob_heads_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:nether_star",
+    "minecraft:carved_pumpkin"
+  ],
+  "result": {
+    "id": "minecraft:player_head"
+  }
+}

@@ -1,25 +1,25 @@
 {
 	"schemaVersion": 1,
-	"id": "craftable",
+	"id": "craftable-by-epsi_t",
 	"version": "${version}",
 	"name": "Craftable",
-	"description": "All the crafting recipes Mojang forgot to add, finally in one place!",
+	"description": "Actually balanced & configurable recipes that should've already been in the game.",
 	"authors": [
 		"Epsi_T"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Epsi1223/Fabric-Craftable-26.X"
+		"homepage": "https://modrinth.com/mod/craftable-epsi_t",
+		"sources": "https://github.com/Epsi1223/Craftable-by-Epsi_T"
 	},
 	"license": "MIT_License",
 	"icon": "assets/craftable/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.epsi.craftable.Craftable"
+			"net.epsi_t.craftable.Craftable"
 		],
 		"fabric-datagen": [
-			"net.epsi.craftable.CraftableDataGenerator"
+			"net.epsi_t.craftable.datagen.CraftableDataGenerator"
 		]
 	},
 	"mixins": [
@@ -27,7 +27,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
-		"minecraft": ">=26 <27",
+		"minecraft": ">=26 <26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}

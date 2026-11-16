@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:tulips_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#craftable:white_tulip_base",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "minecraft:white_tulip"
+  }
+}

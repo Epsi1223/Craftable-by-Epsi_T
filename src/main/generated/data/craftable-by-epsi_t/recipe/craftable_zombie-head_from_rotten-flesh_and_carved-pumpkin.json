@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:mob_heads_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "minecraft:carved_pumpkin",
+    "R": "minecraft:rotten_flesh"
+  },
+  "pattern": [
+    "RRR",
+    "RPR",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:zombie_head"
+  }
+}

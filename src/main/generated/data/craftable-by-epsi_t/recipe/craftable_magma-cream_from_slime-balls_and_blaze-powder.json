@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:slime_ball_to_magma_cream_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:slime_ball",
+    "minecraft:slime_ball",
+    "minecraft:slime_ball",
+    "minecraft:blaze_powder"
+  ],
+  "result": {
+    "id": "minecraft:magma_cream"
+  }
+}

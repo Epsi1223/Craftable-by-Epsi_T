@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:nautilus_armor_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_nautilus_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_nautilus_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_iron-nautilus-armor_from_copper-nautilus-armor_and_iron-blocks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_block",
+      "has_copper_nautilus_armor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_iron-nautilus-armor_from_copper-nautilus-armor_and_iron-blocks"
+    ]
+  }
+}

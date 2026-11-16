@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:small_decorative_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#craftable:saplings",
+    "minecraft:sand"
+  ],
+  "result": {
+    "id": "minecraft:dead_bush"
+  }
+}

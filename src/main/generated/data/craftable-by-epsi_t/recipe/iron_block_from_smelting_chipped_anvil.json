@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:raw_blocks_smelting_recipes"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "iron_block_smelting",
+  "ingredient": "minecraft:chipped_anvil",
+  "result": {
+    "id": "minecraft:iron_block"
+  }
+}

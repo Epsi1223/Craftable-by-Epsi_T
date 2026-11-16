@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:small_decorative_blocks_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_big_dripleaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:big_dripleaf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_shears": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shears"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_small-dripleaf_from_big-dripleaf_and_shears"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_big_dripleaf",
+      "has_shears"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_small-dripleaf_from_big-dripleaf_and_shears"
+    ]
+  }
+}
