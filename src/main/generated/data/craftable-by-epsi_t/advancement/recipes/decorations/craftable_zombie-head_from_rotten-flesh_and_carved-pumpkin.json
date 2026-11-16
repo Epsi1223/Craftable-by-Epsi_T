@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:mob_heads_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carved_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carved_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_zombie-head_from_rotten-flesh_and_carved-pumpkin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_carved_pumpkin",
+      "has_rotten_flesh"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_zombie-head_from_rotten-flesh_and_carved-pumpkin"
+    ]
+  }
+}

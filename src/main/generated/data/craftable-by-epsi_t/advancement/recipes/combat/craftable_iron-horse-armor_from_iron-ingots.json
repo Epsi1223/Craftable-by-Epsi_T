@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:horse_armor_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_iron-horse-armor_from_iron-ingots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_iron-horse-armor_from_iron-ingots"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:food_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:honeycomb_block"
+  ],
+  "result": {
+    "id": "minecraft:honey_bottle"
+  }
+}

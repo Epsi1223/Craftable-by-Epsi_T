@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:copper_oxidation_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_exposed_copper_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_copper_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_weathered-copper-trapdoor_from_vines_and_exposed-copper-trapdoor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:vine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vine",
+      "has_exposed_copper_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_weathered-copper-trapdoor_from_vines_and_exposed-copper-trapdoor"
+    ]
+  }
+}

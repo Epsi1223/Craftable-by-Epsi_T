@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:string_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:white_wool"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:string"
+  }
+}

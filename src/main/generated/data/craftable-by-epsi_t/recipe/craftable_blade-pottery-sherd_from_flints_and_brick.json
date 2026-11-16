@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:sherd_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:brick",
+    "F": "minecraft:flint"
+  },
+  "pattern": [
+    " F ",
+    "FBF",
+    " F "
+  ],
+  "result": {
+    "id": "minecraft:blade_pottery_sherd"
+  }
+}

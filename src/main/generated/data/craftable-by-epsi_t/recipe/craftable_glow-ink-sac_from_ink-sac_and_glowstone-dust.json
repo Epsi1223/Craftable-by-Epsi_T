@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:glow_ink_sac_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:ink_sac",
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "id": "minecraft:glow_ink_sac"
+  }
+}

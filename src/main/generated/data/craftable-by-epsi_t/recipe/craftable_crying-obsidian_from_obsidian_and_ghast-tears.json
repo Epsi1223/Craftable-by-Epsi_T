@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:decorative_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:ghast_tear",
+    "O": "minecraft:obsidian"
+  },
+  "pattern": [
+    " G ",
+    "GOG",
+    " G "
+  ],
+  "result": {
+    "id": "minecraft:crying_obsidian"
+  }
+}

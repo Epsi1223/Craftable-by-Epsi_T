@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:small_decorative_blocks_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cactus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cactus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_glow_ink_sac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_ink_sac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_sea-pickle_from_cactus_and_glow-ink-sac"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cactus",
+      "has_glow_ink_sac"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_sea-pickle_from_cactus_and_glow-ink-sac"
+    ]
+  }
+}

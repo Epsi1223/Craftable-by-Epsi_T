@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:shulker_shell_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:chorus_fruit",
+    "D": "minecraft:diamond",
+    "O": "minecraft:obsidian"
+  },
+  "pattern": [
+    "OCO",
+    "CDC"
+  ],
+  "result": {
+    "id": "minecraft:shulker_shell"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:nautilus_armor_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "minecraft:diamond_block",
+    "N": "minecraft:golden_nautilus_armor"
+  },
+  "pattern": [
+    "DDD",
+    "DND",
+    "DDD"
+  ],
+  "result": {
+    "id": "minecraft:diamond_nautilus_armor"
+  }
+}

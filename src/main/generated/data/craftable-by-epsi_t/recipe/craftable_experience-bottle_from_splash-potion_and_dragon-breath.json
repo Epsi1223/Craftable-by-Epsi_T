@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:experience_bottle_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:splash_potion",
+    "minecraft:dragon_breath"
+  ],
+  "result": {
+    "id": "minecraft:experience_bottle"
+  }
+}

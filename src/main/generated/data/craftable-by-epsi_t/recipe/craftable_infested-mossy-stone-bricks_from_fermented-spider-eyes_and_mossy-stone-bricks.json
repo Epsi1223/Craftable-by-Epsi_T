@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:infested_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:fermented_spider_eye",
+    "S": "minecraft:mossy_stone_bricks"
+  },
+  "pattern": [
+    "EEE",
+    "ESE",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:infested_mossy_stone_bricks"
+  }
+}

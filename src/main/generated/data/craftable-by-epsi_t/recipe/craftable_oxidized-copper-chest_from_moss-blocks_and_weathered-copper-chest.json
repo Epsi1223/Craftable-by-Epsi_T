@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:copper_oxidation_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": "minecraft:moss_block",
+    "Y": "minecraft:weathered_copper_chest"
+  },
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "result": {
+    "id": "minecraft:oxidized_copper_chest"
+  }
+}

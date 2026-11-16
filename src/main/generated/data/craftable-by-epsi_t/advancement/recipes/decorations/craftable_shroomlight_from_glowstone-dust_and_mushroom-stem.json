@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:shrooms_blocks_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glowstone_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mushroom_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mushroom_stem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_shroomlight_from_glowstone-dust_and_mushroom-stem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glowstone_dust",
+      "has_mushroom_stem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_shroomlight_from_glowstone-dust_and_mushroom-stem"
+    ]
+  }
+}

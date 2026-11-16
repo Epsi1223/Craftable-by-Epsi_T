@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:horse_armor_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "  G",
+    "GGG",
+    "G G"
+  ],
+  "result": {
+    "id": "minecraft:golden_horse_armor"
+  }
+}

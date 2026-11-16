@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:mob_heads_recipes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carved_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carved_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gunpowder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gunpowder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "craftable-by-epsi_t:craftable_creeper-head_from_gunpowder_and_carved-pumpkin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_carved_pumpkin",
+      "has_gunpowder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftable-by-epsi_t:craftable_creeper-head_from_gunpowder_and_carved-pumpkin"
+    ]
+  }
+}

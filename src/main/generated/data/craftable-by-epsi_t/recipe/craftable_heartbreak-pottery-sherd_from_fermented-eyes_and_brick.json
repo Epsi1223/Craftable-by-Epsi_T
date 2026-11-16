@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:sherd_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:brick",
+    "E": "minecraft:fermented_spider_eye"
+  },
+  "pattern": [
+    " E ",
+    "EBE",
+    " E "
+  ],
+  "result": {
+    "id": "minecraft:heartbreak_pottery_sherd"
+  }
+}

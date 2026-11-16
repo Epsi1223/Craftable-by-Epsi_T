@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:shrooms_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:glowstone_dust",
+    "S": "minecraft:mushroom_stem"
+  },
+  "pattern": [
+    " G ",
+    "GSG",
+    " G "
+  ],
+  "result": {
+    "id": "minecraft:shroomlight"
+  }
+}

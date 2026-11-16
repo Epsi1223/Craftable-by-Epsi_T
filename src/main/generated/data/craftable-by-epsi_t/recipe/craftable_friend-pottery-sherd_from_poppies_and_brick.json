@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:sherd_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:brick",
+    "P": "minecraft:poppy"
+  },
+  "pattern": [
+    " P ",
+    "PBP",
+    " P "
+  ],
+  "result": {
+    "id": "minecraft:friend_pottery_sherd"
+  }
+}

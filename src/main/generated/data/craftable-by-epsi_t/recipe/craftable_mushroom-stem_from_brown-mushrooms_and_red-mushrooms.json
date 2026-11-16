@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:shrooms_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:brown_mushroom",
+    "R": "minecraft:red_mushroom"
+  },
+  "pattern": [
+    "BRB",
+    "R R",
+    "BRB"
+  ],
+  "result": {
+    "id": "minecraft:mushroom_stem"
+  }
+}

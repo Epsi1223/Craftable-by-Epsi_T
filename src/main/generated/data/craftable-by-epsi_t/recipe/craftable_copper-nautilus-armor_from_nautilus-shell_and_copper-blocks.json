@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:nautilus_armor_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:copper_block",
+    "N": "minecraft:nautilus_shell"
+  },
+  "pattern": [
+    "CCC",
+    "CNC",
+    "CCC"
+  ],
+  "result": {
+    "id": "minecraft:copper_nautilus_armor"
+  }
+}

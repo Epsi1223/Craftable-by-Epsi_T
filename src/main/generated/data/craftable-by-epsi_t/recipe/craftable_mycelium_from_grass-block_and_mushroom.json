@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "craftable:decorative_blocks_recipes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:grass_block",
+    "#craftable:mushrooms"
+  ],
+  "result": {
+    "id": "minecraft:mycelium"
+  }
+}
